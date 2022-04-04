@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>border-radius</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>Border radius previewer</h1>
+    <div class="select-range">
+      <div class="selectors stop">
+        <span>tl</span>
+        <input class="top-left" type="range" min="0" max="100" step="1">
+        
+        <span>tr</span>
+        <input class="top-right" type="range" min="0" max="100" step="1">
+      </div>
+      
+      <div class="selectors bottom">
+        <span>br</span>
+        <input class="bottom-right" type="range" min="0" max="100" step="1">
+        
+        <span>bl</span>
+        <input class="bottom-left" type="range" min="0" max="100" step="1">
+      </div>
+    </div>
+    <div class="border"></div>
+    <div class="output">
+      <span class="top-left-display"></span><br>
+      <span class="top-right-display"></span><br>
+      <span class="bottom-right-display"></span><br>
+      <span class="bottom-left-display"></span>
+    </div>
+    
+  </section>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
